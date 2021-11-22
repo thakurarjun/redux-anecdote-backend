@@ -1,0 +1,19 @@
+{
+  "name": "reduxanecdote-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server -p3001 --watch db.json"  
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
